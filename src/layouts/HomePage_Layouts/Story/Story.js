@@ -30,7 +30,7 @@ function Story({ title, p1, p2, p3, back, btn }) {
               </div>
             </a>
             <a
-              href="RELI3F.XYZ"
+              href="https://reli3f.xyz/"
               target={"_blank"}
               className="padd no-margin black button-white text-center fs-28px weight-4 pointer radius-24px"
             >
