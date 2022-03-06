@@ -1,0 +1,136 @@
+.container {
+  padding: 3rem 0rem;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 2rem;
+  z-index: 10;
+}
+
+.content {
+  padding: 10px;
+  border-radius: 10px;
+}
+.hero_kitty {
+  width: 43%;
+  object-fit: contain;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.btns > button,
+.btns > a {
+  padding: 0 20px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+.btns > button > span {
+  margin-right: 0.8rem;
+}
+
+.btns > button:not(:last-child) {
+  margin-right: 30px;
+}
+.row-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.img-div img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.img-div p {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 1300px) {
+  .hero_kitty {
+    width: 30%;
+  }
+
+  .btns {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    height: unset;
+    max-height: unset;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .hero_kitty {
+    position: static;
+    margin: 0 auto;
+    max-width: 50%;
+    width: 38%;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .btns > button,
+  .btns > a {
+    padding: 0 30px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  .btns > button,
+  .btns > a {
+    padding: 0 16px;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+  }
+
+  .btns > button:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  .btns > button > span {
+    margin-right: 0.5rem;
+  }
+
+  .btns {
+    padding: 0 0rem;
+  }
+  .hero_kitty {
+    position: static;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 70%;
+  }
+}

@@ -1,0 +1,81 @@
+.wrapper {
+  background: rgba(203, 225, 143, 0.9);
+  z-index: 10;
+}
+
+.roadmapTITLE {
+  margin-bottom: 0%;
+}
+
+.roadmap_cat {
+  width: 293px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+  display: none;
+}
+.roadmapGIF {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+  object-fit: contain;
+}
+
+.cards {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  max-width: 373px;
+}
+.card:not(:first-child) {
+  margin-top: -80px;
+}
+.cardContent {
+  background: #ffffff;
+  border: 5px solid #000000;
+  padding: 14px 25px;
+  position: relative;
+}
+
+.Sleeping_wizard {
+  width: 130px;
+  position: absolute;
+  top: -98px;
+  right: 5px;
+}
+.gold_cat {
+  width: 100px;
+  position: absolute;
+  top: -92px;
+  right: 5px;
+}
+
+@media (max-width: 1000px) {
+  .roadmap_cat {
+    display: flex;
+  }
+  .roadmapGIF {
+    display: none;
+  }
+  .roadmapTITLE {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .card:not(:first-child) {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 760px) {
+  .roadmap_cat {
+    width: 200px;
+  }
+}

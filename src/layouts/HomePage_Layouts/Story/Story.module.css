@@ -1,0 +1,8 @@
+.wrapper {
+  background: linear-gradient(180deg, #83fec1 0%, #ffefb7 100%);
+}
+.container {
+  /* border: 2px solid red; */
+  max-width: 1000px;
+  margin: 0 auto;
+}

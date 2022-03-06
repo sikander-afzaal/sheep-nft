@@ -1,0 +1,53 @@
+.wrapper {
+  background: #ffefb7;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.left a {
+  margin-left: 1.5rem;
+  padding: 0.5rem 2rem;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right > :not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.logo {
+  width: 200px;
+}
+
+@media (max-width: 950px) {
+  .left {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .left button {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .right {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .logo {
+    max-width: 200px;
+    width: 95%;
+  }
+}

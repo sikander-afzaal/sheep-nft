@@ -1,0 +1,35 @@
+.wrapper {
+  background: linear-gradient(180deg, #91e8ff 0%, #83fec1 100%);
+}
+.faqs {
+  position: relative;
+  /* border: 2px solid red; */
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.faqs > :not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.Cat_playing {
+  position: absolute;
+  top: -110px;
+  left: 10px;
+  width: 190px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+@media (max-width: 760px) {
+  .Cat_playing {
+    top: -80px;
+    width: 140px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Cat_playing {
+    display: none;
+  }
+}
