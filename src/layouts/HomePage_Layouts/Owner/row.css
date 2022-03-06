@@ -36,9 +36,20 @@
 .padding-0 {
   padding-top: 0px;
 }
+.three {
+  margin-right: "-3px";
+  font-size: "37px";
+  font-weight: "bold";
+  font-family: "font-cream-shoes";
+}
 @media screen and (max-width: 1616px) {
   .abs {
     right: -8%;
+  }
+}
+@media screen and (max-width: 1338px) {
+  .three {
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 1254px) {
@@ -48,6 +59,7 @@
     font-size: 26px;
   }
 }
+
 @media screen and (max-width: 1190px) {
   .abs {
     right: -5%;

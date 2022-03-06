@@ -38,6 +38,7 @@ function Story({ title, p1, p2, p3, back, btn }) {
                 <p className="font-calli-cat ">
                   Click here to learn more about <br></br> RELI
                   <span
+                    className="three"
                     style={{
                       marginRight: "-3px",
                       fontSize: "37px",
