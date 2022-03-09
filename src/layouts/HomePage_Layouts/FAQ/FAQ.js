@@ -11,16 +11,20 @@ function FAQ() {
         <div className={styles.faqs}>
           <Accordion title="PALPACAS, RELIEF & SMARTCONTRACT ACCOUNTABILITY">
             <p className="font-cream-shoes fs-40px black mb-5px weight-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque, itaque.
+              For more transparency and accountability towards our charitable
+              pledge towards RELI3F, we have integrated it into our
+              smartcontract. Once deployed, 20% of all mint proceeds will be
+              permanently pledged towards the RELI3F wallet.
+              <br />
+              See our contract here:
             </p>
           </Accordion>
-          <Accordion title="What is the total supply of Palpacas?">
+          <Accordion title="WHAT IS THE TOTAL SUPPLY OF PALAPCAS?">
             <p className="font-cream-shoes fs-40px black mb-5px weight-5">
               There will be a total of 3,333 Palpacas available for mint
             </p>
           </Accordion>
-          <Accordion title="How much will it cost to mint a Palpaca?">
+          <Accordion title="HOW MUCH WILL IT COST TO MINT A PALPACA?">
             <p className="font-cream-shoes fs-34px black ">
               For an accessible price of 0.04 ETH, you will receive 1 Palpaca
               NFT that not only serves as an awesome PFP, but also access to an
@@ -67,7 +71,7 @@ function FAQ() {
               price.
             </p>
           </Accordion>
-          <Accordion title="How do I buy? (New to NFTs)">
+          <Accordion title="HOW DO I BUY? (NEW TO NFTS)">
             <p className="font-cream-shoes fs-30px black weight-5">
               Here are a few simple steps to how you can obtain a Palpaca NFT.
             </p>

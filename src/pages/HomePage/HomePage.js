@@ -23,15 +23,16 @@ function HomePage() {
         <Story
           back={true}
           btn={true}
+          list={true}
           title={"What are Palpacas?"}
           p2={
-            "Palpacas exist to provide a helping hand. Our goal is to provide donation-accountability within the WEB3 ecosystem, as we continue to build towards change for the better."
+            "Palpacas exist to provide a helping hand. Our vision is to build a community of helpful pals that wish to contribute towards the betterment of our communities and contribute towards environmental sustainability."
           }
           p1={
-            "Using a publicly auditable vault contract, 60% of all mint proceeds will be directly sent to the RELI3F fund (Reli3f.xyz), a transparent WEB3 initiative created by several NFT community leaders to help the current situation in Ukraine."
+            "Palpacas is our way of contributing to the “Web3 for good” movement, and we plan on having a ton of fun while doing so!"
           }
           p3={
-            "We are on a mission to create a kind & supportive space for our pals in the Metaverse. Community is absolutely one of the most important aspects for any NFT project."
+            "To start, we’ve decided to allocate 20% of all mint proceeds towards the RELI3F fund. RELI3F is a humanitarian aid initiative currently supporting those affected by the war in Ukraine."
           }
         />
       </div>
@@ -47,13 +48,13 @@ function HomePage() {
           trans={true}
           title={"Future of Palpacas"}
           p1={
-            "We have a lot of great ideas for the future of Palpacas, from physical collectibles and the launch of our Merch store, to the purchase of metaverse land for our pals to !vibe in. Collectively we will build the Palpacaverse together and of course, look to add upon the Palpaca team!"
+            "As we continue building a community of likeminded individuals dedicated towards taking the initiative towards a better future, we are excited for the Palpacas community!"
           }
           p2={
             "To facilitate the continual development and ensure a sustainable future for the Palpacas, 50% of all secondary market royalties will be allocated towards the Palpaca Treasury."
           }
           p3={
-            "Development of staking utility $PALS coin will commence also commence. $PALS will be the official digital currency of Palpacas, where you can spend $PALS on physical goods as well as digital goods to use in the metaverse."
+            "Whether this means using the treasury to purchase metaverse land, or launching a merch store to support charitable causes, the community will have direct influence on the direction of this project."
           }
         />
         <Owner />

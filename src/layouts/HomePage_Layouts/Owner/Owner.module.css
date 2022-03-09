@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  gap: 2rem;
+  gap: 3rem;
   z-index: 10;
 }
 
@@ -15,7 +15,7 @@
   border-radius: 10px;
 }
 .hero_kitty {
-  width: 43%;
+  width: 50%;
   object-fit: contain;
 }
 
@@ -89,9 +89,10 @@
 
   .hero_kitty {
     position: static;
-    margin: 0 auto;
-    max-width: 50%;
-    width: 38%;
+    margin-left: 75%;
+    transform: translateX(-50%);
+    max-width: 60%;
+    width: 60%;
   }
 
   .content {
@@ -129,7 +130,8 @@
   }
   .hero_kitty {
     position: static;
-    margin: 0 auto;
+    margin-left: 90%;
+    transform: translateX(-50%);
     max-width: 100%;
     width: 70%;
   }

@@ -2,7 +2,7 @@ import React from "react";
 import styles2 from "./About.module.css";
 import styles from "../Owner/Owner.module.css";
 import { FaDiscord } from "react-icons/fa";
-import hero_sheep from "assets/images/roadmap-car.png";
+import hero_sheep from "assets/images/car.png";
 import useMediaQuery from "hooks/useMediaQuery";
 import { Link } from "react-router-dom";
 function About() {
@@ -41,7 +41,7 @@ function About() {
                 </Link>
               </div>
             </div>
-            <p className="abs">Hi Pals</p>
+            {/* <p className="abs">Hi Pals</p> */}
             <img src={hero_sheep} className={styles.hero_kitty} alt="" />
           </div>
         </div>

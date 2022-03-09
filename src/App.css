@@ -91,6 +91,16 @@ body {
 .padd {
   padding: 0px 35px;
 }
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem 0rem;
+  flex-direction: column;
+}
+.list ul {
+  padding-left: 3rem;
+}
 :root {
   overflow-x: hidden;
   scroll-behavior: smooth;

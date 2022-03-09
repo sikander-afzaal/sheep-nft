@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Story.module.css";
 
-function Story({ title, p1, p2, p3, back, btn }) {
+function Story({ title, p1, p2, p3, back, btn, list }) {
   return (
     <div
       style={{ background: back ? "#91e8ff" : "transparent" }}
@@ -15,7 +15,43 @@ function Story({ title, p1, p2, p3, back, btn }) {
 
           <p className="font-cream-shoes fs-38px weight-5 mb-35px lh-1">{p1}</p>
           <p className="font-cream-shoes fs-38px weight-5 mb-30px lh-1">{p2}</p>
+          {list ? (
+            <div className="list">
+              <p className="font-cream-shoes fs-38px weight-7 mb-30px lh-1">
+                Together, we will collectively strive towards:
+              </p>
+              <ul>
+                <li className="font-cream-shoes fs-38px weight-5 mb-30px lh-1">
+                  Positively impacting the communities we reside in
+                </li>
+                <li className="font-cream-shoes fs-38px weight-5 mb-30px lh-1">
+                  Positively impacting the environment & our planet
+                </li>
+                <li className="font-cream-shoes fs-38px weight-5 mb-30px lh-1">
+                  Providing help where it is needed{" "}
+                </li>
+              </ul>
+            </div>
+          ) : (
+            ""
+          )}
           <p className="font-cream-shoes fs-38px weight-5 mb-30px lh-1">{p3}</p>
+          {list ? (
+            <>
+              <p className="font-cream-shoes fs-38px weight-5 mb-30px lh-1">
+                RELI3F is a perfect example of how we can make an impact for
+                good with web3. Although we are not affiliated with the RELI3F
+                team, their efforts in the space are truly inspirational, and in
+                total alignment with what we are trying to build!
+              </p>
+              <p className="font-cream-shoes fs-38px weight-5 mb-30px lh-1">
+                Check out how our smart contract will provide donation
+                accountability below!
+              </p>
+            </>
+          ) : (
+            ""
+          )}
         </div>
         {btn ? (
           <div className="btn-div">
@@ -30,7 +66,7 @@ function Story({ title, p1, p2, p3, back, btn }) {
               </div>
             </a>
             <a
-              href="https://reli3f.xyz/"
+              href="https://twitter.com/reli3fxyz"
               target={"_blank"}
               className="padd no-margin black button-white text-center fs-28px weight-4 pointer radius-24px"
             >
