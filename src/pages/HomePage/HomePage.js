@@ -22,17 +22,17 @@ function HomePage() {
       <div id="story">
         <Story
           back={true}
-          btn={true}
-          list={true}
+          btn={false}
+          list={false}
           title={"What are Palpacas?"}
           p2={
-            "Palpacas exist to provide a helping hand. Our vision is to build a community of helpful pals that wish to contribute towards the betterment of our communities and contribute towards environmental sustainability."
+            "Palpacas are 3,333 unique collectible NFTs randomly generated on the Ethereum blockchain. With a primary focus for organic growth within the WEB3 space for our community of Pals, this project will be available to the public and selected whitelist members for free!"
           }
           p1={
-            "Palpacas is our way of contributing to the “Web3 for good” movement, and we plan on having a ton of fun while doing so!"
+            "A free mint is our way of getting our collection into the hands of those that truly appreciate our collection. "
           }
           p3={
-            "To start, we’ve decided to allocate 20% of all mint proceeds towards the RELI3F fund. RELI3F is a humanitarian aid initiative currently supporting those affected by the war in Ukraine."
+            "We believe in building our project up from the ground up, with a genuine and inclusive community that seeks growth through internal collaboration and external partnerships."
           }
         />
       </div>
@@ -48,13 +48,13 @@ function HomePage() {
           trans={true}
           title={"Future of Palpacas"}
           p1={
-            "As we continue building a community of likeminded individuals dedicated towards taking the initiative towards a better future, we are excited for the Palpacas community!"
+            "We will work hard to continue to foster our community and build for the future of Palpacas. To facilitate the continual development and ensure a sustainable future for the Palpcas, 20% of all secondary market royalties will be allocated towards the Palpaca Treasury."
           }
           p2={
-            "To facilitate the continual development and ensure a sustainable future for the Palpacas, 50% of all secondary market royalties will be allocated towards the Palpaca Treasury."
+            "As written in our roadmap, the Palpaca Treasury will be primarily used to acquire NFT prizes and experiences for our Pals. Long term goals include acquiring land within the metaverse for our Pals to build and connect in."
           }
           p3={
-            "Whether this means using the treasury to purchase metaverse land, or launching a merch store to support charitable causes, the community will have direct influence on the direction of this project."
+            "We are also excited to collaborate with our community to curate clothing/products for our community, with 100% of proceeds being funneled back into the Palpaca Treasury."
           }
         />
         <Owner />

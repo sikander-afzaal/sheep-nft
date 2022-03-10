@@ -470,6 +470,9 @@ body {
 .mt-120px {
   margin-top: 120px;
 }
+.ml-15px {
+  margin-left: 15px;
+}
 
 /* paddings */
 .py-30px {

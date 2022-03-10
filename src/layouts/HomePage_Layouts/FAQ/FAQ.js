@@ -9,16 +9,6 @@ function FAQ() {
         <h1 className="text-center fs-72px black weight-4 mb-40px">FAQs</h1>
 
         <div className={styles.faqs}>
-          <Accordion title="PALPACAS, RELIEF & SMARTCONTRACT ACCOUNTABILITY">
-            <p className="font-cream-shoes fs-40px black mb-5px weight-5">
-              For more transparency and accountability towards our charitable
-              pledge towards RELI3F, we have integrated it into our
-              smartcontract. Once deployed, 20% of all mint proceeds will be
-              permanently pledged towards the RELI3F wallet.
-              <br />
-              See our contract here:
-            </p>
-          </Accordion>
           <Accordion title="WHAT IS THE TOTAL SUPPLY OF PALAPCAS?">
             <p className="font-cream-shoes fs-40px black mb-5px weight-5">
               There will be a total of 3,333 Palpacas available for mint
@@ -26,17 +16,14 @@ function FAQ() {
           </Accordion>
           <Accordion title="HOW MUCH WILL IT COST TO MINT A PALPACA?">
             <p className="font-cream-shoes fs-34px black ">
-              For an accessible price of 0.04 ETH, you will receive 1 Palpaca
-              NFT that not only serves as an awesome PFP, but also access to an
-              exclusive community of supportive Pals and access to the
-              Palpacaverse!
+              Free! The mint price of the Palpacas will be 0 + gas. Whitelisted
+              wallets will be able to mint up to 2 Palpacas for the price of
+              gas.
             </p>
           </Accordion>
           <Accordion title="WHEN WILL PALPACAS LAUNCH?">
             <p className="font-cream-shoes fs-40px black mb-25px weight-5">
-              The pre-sale will commence on March 15th, 2022 at 9AM PST, and our
-              public sale will commence 24 hours later on March 16th, 2022 at
-              9AM PST
+              TBD
             </p>
           </Accordion>
           <Accordion title="HOW WILL DIFFERENT FUR RARITIES BENEFIT HOLDERS?">

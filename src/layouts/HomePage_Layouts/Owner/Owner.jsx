@@ -8,19 +8,21 @@ function Owner() {
   return (
     <div className={styles.container}>
       <div className="container-wrapper">
-        <h1 className="fs-66px weight-4 mb-20px">Ownership Benefits</h1>
+        <h1 className="fs-66px weight-4 mb-20px">
+          Potential Ownership Benefits
+        </h1>
         <div className="row-owner">
           <div className="img-div">
-            <img src={img2} alt="" />
-            <p>Buy Land</p>
+            <img src={img4} alt="" />
+            <p>Palpaca Treasury</p>
           </div>
           <div className="img-div">
             <img src={img3} alt="" />
             <p>Merch Store</p>
           </div>
           <div className="img-div">
-            <img src={img4} alt="" />
-            <p>Community Treasury</p>
+            <img src={img2} alt="" />
+            <p>Metaverse Land</p>
           </div>
         </div>
       </div>
