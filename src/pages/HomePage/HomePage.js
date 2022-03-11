@@ -25,11 +25,11 @@ function HomePage() {
           btn={false}
           list={false}
           title={"What are Palpacas?"}
-          p2={
+          p1={
             "Palpacas are 3,333 unique collectible NFTs randomly generated on the Ethereum blockchain. With a primary focus for organic growth within the WEB3 space for our community of Pals, this project will be available to the public and selected whitelist members for free!"
           }
-          p1={
-            "A free mint is our way of getting our collection into the hands of those that truly appreciate our collection. "
+          p2={
+            "A free mint is our way of getting our collection into the hands of those that truly appreciate our collection."
           }
           p3={
             "We believe in building our project up from the ground up, with a genuine and inclusive community that seeks growth through internal collaboration and external partnerships."
